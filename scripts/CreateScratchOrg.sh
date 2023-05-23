@@ -7,7 +7,7 @@
 #  SPDX-License-Identifier: BSD-3-Clause
 #  For full license text, see the LICENSE file in the repo root or https://opensource.org/licenses/BSD-3-Clause
 #
-#  Contact: john.meyer@salesforce.com
+#  Contact: dnava@salesforce.com
 
 readonly orgAlias=$(jq --raw-output .defaultusername < .sfdx/sfdx-config.json) || {
     echo "Make sure that \"jq\" is installed and that \"defaultusername\" is defined in .sfdx/sfdx-config.json." >&2
