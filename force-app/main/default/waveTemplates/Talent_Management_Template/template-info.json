@@ -1,0 +1,85 @@
+{
+  "templateType" : "app",
+  "label" : "Talent Management Template",
+  "name" : "Talent_Management_Template",
+  "description" : "",
+  "assetVersion" : 57.0,
+  "variableDefinition" : "variables.json",
+  "uiDefinition" : "ui.json",
+  "rules" : [
+    {
+      "type" : "templateToApp",
+      "file" : "template-to-app-rules.json"
+    },
+    {
+      "type" : "appToTemplate",
+      "file" : "app-to-template-rules.json"
+    }
+  ],
+  "releaseInfo" : {
+    "templateVersion" : "1.0",
+    "notesFile" : "releaseNotes.html"
+  },
+  "folderDefinition" : "folder.json",
+  "externalFiles" : [
+    {
+      "label" : "DF Perf and Pay",
+      "name" : "DF_Perf_and_Pay_tp",
+      "condition" : "${Variables.Overrides.createAllDatasetFiles}",
+      "userXmd" : "external_files/DF_Perf_and_Pay_XMD.json",
+      "schema" : "external_files/DF_Perf_and_Pay.json",
+      "type" : "CSV",
+      "file" : "external_files/DF_Perf_and_Pay.csv"
+    },
+    {
+      "label" : "DF Project Resources",
+      "name" : "DF_Project_Resources_tp",
+      "condition" : "${Variables.Overrides.createAllDatasetFiles}",
+      "userXmd" : "external_files/DF_Project_Resources_XMD.json",
+      "schema" : "external_files/DF_Project_Resources.json",
+      "type" : "CSV",
+      "file" : "external_files/DF_Project_Resources.csv"
+    },
+    {
+      "label" : "DF TM Personnel",
+      "name" : "DF_TM_Personnel_tp",
+      "condition" : "${Variables.Overrides.createAllDatasetFiles}",
+      "userXmd" : "external_files/DF_TM_Personnel_XMD.json",
+      "schema" : "external_files/DF_TM_Personnel.json",
+      "type" : "CSV",
+      "file" : "external_files/DF_TM_Personnel.csv"
+    }
+  ],
+  "lenses" : [ ],
+  "dashboards" : [
+    {
+      "label" : "Talent Management Analytics",
+      "name" : "Talent_Management_Analytics_tp",
+      "condition" : "${Variables.Overrides.createAllDashboards}",
+      "file" : "dashboards/Talent_Management_Analytics.json"
+    }
+  ],
+  "components" : [ ],
+  "eltDataflows" : [ ],
+  "recipes" : [ ],
+  "datasetFiles" : [ ],
+  "storedQueries" : [ ],
+  "imageFiles" : [
+    {
+      "name" : "X1x1_000000ffpng",
+      "condition" : "${Variables.Overrides.createAllImages}",
+      "file" : "images/1x1_#000000ff.png"
+    }
+  ],
+  "extendedTypes" : { },
+  "templateDependencies" : [ ],
+  "icons" : {
+    "appBadge" : {
+      "name" : "16.png"
+    },
+    "templateBadge" : {
+      "name" : "default.png"
+    },
+    "templatePreviews" : [ ]
+  }
+}
