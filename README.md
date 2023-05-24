@@ -1,17 +1,17 @@
 <h1 align="center"> DoD Talent Management Dashboard </h1>
 
 ## Description
-This package contains a CRM Analytics (CRMA) app template which can be used to create a talent management dashboard, complete with the dataset.
+This package contains a CRM Analytics (CRMA) app template which can be used to create a talent management dashboard, complete with the datasets.
 
 ## Summary
-The DoD Talent Management Dashboard provides comprehensive HCM-focused analytics across three areas: workforce availability, workforce planning, and performance and pay management. Dynamic charts summarize key metrics in an intuitive and insightful manner, enabling users to drill down into the data, identify trends and gaps, and take action without leaving the dashboard. This dashboard leverages sample data to help your organization imagine how you can leverage CRMA to meet your talent management analytic needs. 
+The DoD Talent Management Dashboard provides comprehensive HCM-focused analytics across three areas: workforce availability, workforce planning, and performance and pay management. Dynamic charts summarize key metrics in an intuitive and insightful manner, enabling users to drill down into the data, identify trends and gaps, and take action without leaving the dashboard. The dashboard leverages sample data to help your organization imagine how you can leverage CRMA to meet your talent management analytic needs. 
 
 ## Disclaimer
 Installation and use of this package is at your own risk. Please consult your organization’s rules and regulations before proceeding.
 
 ## Installation & Setup
 - Before getting started, ensure that you have CRMA enabled in your org and that you’ve assigned the appropriate permission sets for the users who will be using the app template. You can access a Salesforce help article for setting up CRMA via the following link: https://help.salesforce.com/s/articleView?id=sf.bi_help_setup_basic.htm&type=5 
-- Once CRMA is set up in your org, use the following URL to install the package, which contains an app template with the corresponding dataset. Pasting the link into your web browser will bring up a Salesforce login screen. Log into the org that you’ll like the app template to be installed into.
+- Once CRMA is set up in your org, use the following URL to install the package, which contains an app template with the corresponding datasets. Pasting the link into your web browser will bring up a Salesforce login screen. Log into the org that you’d like the app template to be installed into.
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04t8V000001dd0S 
 
 ![1](/images/1.png)
