@@ -1,4 +1,4 @@
-<h1 align="center"> DoD Talent Management Dashboard </h1>
+<h1 align="center"> DoD Talent Management App and Dashboard </h1>
 
 ## Description
 This package contains a CRM Analytics (CRMA) app template which can be used to create a talent management dashboard, complete with the datasets.
