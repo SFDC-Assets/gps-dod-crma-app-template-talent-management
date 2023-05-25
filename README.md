@@ -1,7 +1,7 @@
 <h1 align="center"> DoD Talent Management App and Dashboard </h1>
 
 ## Description
-This package contains a CRM Analytics (CRMA) app template which can be used to create a talent management dashboard, complete with the datasets.
+This package contains a CRM Analytics (CRMA) app template which can be used to create a talent management dashboard, complete with three datasets.
 
 ## Summary
 The DoD Talent Management Dashboard provides comprehensive HCM-focused analytics across three areas: workforce availability, workforce planning, and performance and pay management. Dynamic charts summarize key metrics in an intuitive and insightful manner, enabling users to drill down into the data, identify trends and gaps, and take action without leaving the dashboard. The dashboard leverages sample data to help your organization imagine how you can leverage CRMA to meet your talent management analytic needs. 
