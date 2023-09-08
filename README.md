@@ -10,7 +10,8 @@ The DoD Talent Management Dashboard provides comprehensive HCM-focused analytics
 Installation and use of this package is at your own risk. Please consult your organization’s rules and regulations before proceeding.
 
 ## Installation & Setup
-- Before getting started, ensure that you have CRMA enabled in your org and that you’ve assigned the appropriate permission sets for the users who will be using the app template. You can access a Salesforce help article for setting up CRMA via the following link: https://help.salesforce.com/s/articleView?id=sf.bi_help_setup_basic.htm&type=5 
+- Before getting started, ensure that you have CRMA enabled in your org and that you’ve assigned the appropriate permission sets for the users who will be using the app template. You can access a Salesforce help article for setting up CRMA via the following link: https://help.salesforce.com/s/articleView?id=sf.bi_help_setup_basic.htm&type=5
+- If you don't have CRMA installed in your Salesforce org, you can still take advantage of this asset by signing up for a free, 30-day trial org here: https://www.salesforce.com/form/signup/freetrial-crm-analytics/
 - Once CRMA is set up in your org, use the following URL to install the package, which contains an app template with the corresponding datasets. Pasting the link into your web browser will bring up a Salesforce login screen. Log into the org that you’d like the app template to be installed into.
 https://login.salesforce.com/packaging/installPackage.apexp?p0=04t8V000001dd0S 
 
